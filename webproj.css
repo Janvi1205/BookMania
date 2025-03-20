@@ -44,6 +44,15 @@ body {
 
 .bi-arrow-left-circle-fill{
     color: purple;
+    display: flex;
+
+}
+
+@media screen and (max-width: 768px) {
+    .bi-arrow-left-circle-fill{
+        display: none;
+    }
+    
 }
 
 .bi-arrow-left-circle-fill:hover{
@@ -56,7 +65,10 @@ body {
 .bi-arrow-right-circle-fill:hover{
     color: wheat;
 }
+#maincontent{
+    display: flex;
 
+}
 .bookcontainer {
     position: relative;
     perspective: 1000px;
@@ -69,6 +81,20 @@ body {
 
 
 
+}
+
+@media screen and (max-width: 768px) {
+     .bi-arrow-right-circle-fill{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .bookcontainer {
+        margin-left: 0;
+    }
+    
 }
 
 .book {
@@ -181,6 +207,17 @@ section {
     height: 4px;
     background: var(--accent-purple);
     border-radius: 2px;
+}
+
+@media screen and (max-width: 768px) {
+    #heading {
+        margin-left: 0;
+        text-align: center;
+    }
+    #heading::after {
+        margin-right: 50px;
+    }
+    
 }
 .feedback {
     border: 1px solid white;
