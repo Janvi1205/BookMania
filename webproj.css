@@ -310,6 +310,15 @@ details {
     transform: translateY(-2px);
     box-shadow: 0 6px 15px rgba(255, 136, 231, 0.4);
 }
+
+@media screen and (max-width: 768px) {
+    #goback {
+        
+        margin-right:-30px;
+    
+    }
+
+}
 summary {
     cursor: pointer;
     padding: 15px 25px;
